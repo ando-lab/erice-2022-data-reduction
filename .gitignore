@@ -1,5 +1,8 @@
 # Data directory
 data/
+analysis/
+
+# OS junk
 .DS_Store
 
 # Byte-compiled / optimized / DLL files

@@ -1,4 +1,4 @@
-# 0_Indexing_and_geometry_refinement
+# Indexing and geometry refinement
 
 ## Introduction
 
@@ -22,14 +22,63 @@ Open a terminal window and cd to the `erice-2022-data-reduction/data/dials` dire
 dials.import ../images/insulin_2_1
 ```
 
+Also import the background images (will be used later in the tutorial)
+```
+dials.import ../images/insulin_2_bkg output.experiments=background.expt
+```
+
+```
+dials.show imported.expt
+```
+
+```
+dials.show background.expt
+```
+
+```
+dials.image_viewer imported.expt
+```
+
+## Masking
+
+
+
 ## Find Spots
+
+```
+dials.find_spots imported.expt
+```
 
 ## Indexing
 
+```
+dials.index imported.expt strong.refl space_group=199
+```
+
 ## Refinement
+
+```
+dials.refine indexed.expt indexed.refl
+```
 
 ## Integration
 
+```
+dials.integrate refined.expt refined.refl
+```
+
 ## Scaling
 
+```
+dials.scale integrated.expt integrated.refl
+```
+
+```
+dials.scale scaled.expt scaled.refl d_min=1.26
+```
+
 ## Report
+
+```
+dials.report scaled.expt scaled.refl
+```
