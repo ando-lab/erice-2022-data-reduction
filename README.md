@@ -4,7 +4,7 @@ These materials were developed for the [2022 Erice School on Diffuse Scattering]
 
 ## Overview
 
-The workshop is three hours and is divided into eight self-guided tutorials to be completed sequentially.
+The workshop is 1.5 hours and is divided into 6 self-guided tutorials.
 
 We will introduce modern diffuse scattering data reduction techniques using three open-source python packages:
 
@@ -14,22 +14,21 @@ We will introduce modern diffuse scattering data reduction techniques using thre
 
 The tutorials are:
 
-- [0_Indexing_and_geometry_refinement](tutorials/0_Indexing_and_geometry_refinement.md)
-- [1_Data_exploration](1_Data_exploration.md)
-- [2_Scaling_and_background_subtraction](2_Scaling_and_background_subtraction.md)
-- [3_Data_quality_statistics](3_Data_quality_statistics.md)
-- [4_Reciprocal_space_mapping](4_Reciprocal_space_mapping.md)
-- [5_Visualization](5_Visualization.md)
-- [6_3D-DeltaPDF](6_3D-DeltaPDF.md)
-- [7_Advanced_topics](7_Advanced_topics.md)
+- [0_introduction](tutorials/0_Indexing_and_geometry_refinement.md)
+- [1_dials_indexing](1_dials_indexing.ipynb)
+- [2_mdx2_geometry](2_mdx2_geometry.ipynb)
+- [3_mdx2_data](3_mdx2_data.ipynb)
+- [4_mdx2_integration](4_mdx2_integration.ipynb)
+- [5_mdx2_merging](5_mdx2_merging.ipynb)
+- [6_mdx2_python](6_mdx2_python.ipynb)
 
 ## Requirements
 
-The exercises are designed to run on a laptop computer. Tasks that require more computational resources are described in an optional, final tutorial (Advanced topics).
+The exercises are designed to run on a laptop computer.
 
 If you will bring your own laptop, please do the following *before* you travel:
 
-1. Verify that your computer (Windows, Linux, or OSX) has >20 Gb free disk space.
+1. Verify that your computer has at least 10 Gb free disk space.
 2. Install the Erice-2022 python environment for macromolecular crystallography (Link: <INSERT LINK HERE>)
 3. Follow the *Installation* instructions below.
 
