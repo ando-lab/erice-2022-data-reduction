@@ -32,15 +32,15 @@ If you are bringing your own laptop to Erice, please do the following *before* y
 
 2. Install the Erice-2022 python environment for macromolecular crystallography (Link: https://github.com/cctbx-xfel/erice_2022)
 
-4. Download the tutorials (Link: https://github.com/ando-lab/erice-2022-data-reduction/archive/refs/tags/v1.0-alpha.zip)
+4. Download the tutorials (Link: https://github.com/ando-lab/erice-2022-data-reduction/archive/refs/tags/v1.0.zip)
 
-5. Download some pre-processed results, just in case (Link: https://github.com/ando-lab/erice-2022-data-reduction/releases/download/v1.0-alpha/corrected.nxs)
+5. Download some pre-processed results (Link: https://github.com/ando-lab/erice-2022-data-reduction/releases/download/v1.0-alpha/corrected.nxs)
 
 6. Follow the *Installation* instructions for *mdx2*, below.
 
 ## Installation instructions for *mdx2*
 
-1. Download *mdx2* here: https://github.com/ando-lab/mdx2/archive/refs/tags/v0.3.0-alpha.zip
+1. Download *mdx2* here: https://github.com/ando-lab/mdx2/archive/refs/tags/v0.3.0.zip
 
 2. Unzip and move the folder `mdx2-0.3.0-alpha` somewhere easy to find (such as ~/Documents/Erice).
 
