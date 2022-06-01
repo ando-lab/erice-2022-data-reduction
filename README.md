@@ -42,9 +42,9 @@ If you are bringing your own laptop to Erice, please do the following *before* y
 
 1. Download *mdx2* here: https://github.com/ando-lab/mdx2/archive/refs/tags/v0.3.0.zip
 
-2. Unzip and move the folder `mdx2-0.3.0-alpha` somewhere easy to find (such as ~/Documents/Erice).
+2. Unzip and move the folder `mdx2-0.3.0` somewhere easy to find (such as ~/Documents/Erice).
 
-3. Open a terminal window and add the Erice python environment to the path (Instructions here: https://github.com/cctbx-xfel/erice_2022). Change to the `mdx2-0.3.0-alpha` directory, and run:
+3. Open a terminal window and add the Erice python environment to the path (Instructions here: https://github.com/cctbx-xfel/erice_2022). Change to the `mdx2-0.3.0` directory, and run:
 ```bash
 pip install -e .
 ```
@@ -58,9 +58,9 @@ The current version number should be printed.
 
 ## Quick start
 
-1. Double-click `insulin_2_1.tar`. This will produce a folder called `images` with three subdirectories. Move the `images` folder to the tutorial directory (`erice-2022-data-reduction`).
+1. Double-click `insulin_2_1.tar`. This will produce a folder called `images` with three subdirectories. Move the `images` folder to the tutorial directory (`erice-2022-data-reduction-1.0`).
 
-2. Open a terminal window and make sure Erice python environment is on path (see above). Change to the tutorial directory (`erice-2022-data-reduction`) and type:
+2. Open a terminal window and make sure Erice python environment is on path (see above). Change to the tutorial directory (`erice-2022-data-reduction-1.0`) and type:
 ```bash
 jupyter lab
 ```
